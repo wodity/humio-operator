@@ -367,7 +367,7 @@ func (hnp HumioNodePool) GetEnvironmentVariables() []corev1.EnvVar {
 		},
 		{
 			Name:  "HUMIO_GC_OPTS",
-			Value: "-XX:+UseParallelGC -XX:+ScavengeBeforeFullGC -XX:+DisableExplicitGC",
+			Value: "",
 		},
 		{
 			Name:  "HUMIO_JVM_LOG_OPTS",
